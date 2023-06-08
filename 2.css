@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    outline: none;
+    
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(#000000b3, rgba(33, 37, 37, 0.7)), url("http://getwallpapers.com/wallpaper/full/d/e/3/471501.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    color: #056c75;
+    font-size: 60px;
+    font-family:Impact, cursive, 'Comic Sans MS', sans-serif;
+    padding-left: 20px;
+    float: left;
+    top: 20%;
+    padding-top: 10px;
+    margin-top: 10px
+}
+.calculater{
+    background-color: rgb(48, 43, 84);
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px rgb(15, 14, 14)
+                      ,5px 5px 12px rgb(33, 1, 50);
+    display: grid;
+    grid-template-columns: repeat(4,68px);
+
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+    background-color: azure;
+    box-shadow: inset 5px 5px 12px dimgray;
+    border: none;
+    border-radius: 30px;
+    font-size: 35px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    pointer-events: none;
+}
+button{
+    width: 48px;
+    height: 48px;
+    border:none;
+    background-color: aliceblue;
+    border-radius: 50px;
+    margin: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(9, 2, 82);
+    color: white;
+}
+.equall-to{
+    width:115px;
+    background-color: rgb(39, 92, 144);
+}
+.Clear{
+    background-color: rgb(39, 92, 144);
+}
+.del{
+    background-color: rgb(39, 92, 144);
+}
+.blue{
+    background-color: rgb(23, 162, 197);
+}
